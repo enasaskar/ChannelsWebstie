@@ -1,0 +1,340 @@
+.index-pg{
+	background: #f8f8ff;
+}
+.navbar-inverse{
+	background: #2c3e50;
+	padding: 10px;
+}
+
+.navbar-inverse .navbar-brand{
+	color:#D24E58 ;
+	font: 22px bolder;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .hvr-underline-from-center {
+  font-family: 'Lato', sans-serif;
+  padding: 16px 23px;
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #9acd32;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu .drop-item{
+  color: #2c3e50;
+}
+
+.dropdown-menu .drop-item:hover{
+	color:#fff;
+	background: #D24E58;
+}
+
+.owl-carousel{
+opacity: 0.9;
+}
+
+.main-header{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+
+.main-slider {  
+  width:100%;
+
+}
+
+ .channel-thumbnail{
+ 	border:inherit;
+ 	border-right: 2px solid #9acd32;
+    display: block;
+    width: 210px;
+    background: inherit;
+    margin-top: 15px;
+  }
+
+.thumbnail:nth-child(5){
+   border:none;
+}
+
+.channel-title{
+	font-family: 'Lato', sans-serif;
+	font: 27px bold;
+	color: #D24E58;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.channel-title:hover{
+	text-decoration: none;
+}
+
+.img-circle{
+    border-radius: 50%;
+    border: 3px solid #9acd32;
+    padding: 5px;
+    height:170px;
+    width: 175px !important;
+}
+
+.img-circle:hover{
+    box-shadow: 0 0 2px 1px #9acd32;
+    height:180px;
+    width: 185px !important;
+}
+
+.channel-details{
+	font-family:'Lato', sans-serif; 
+	font: 15px bold;
+    color: #2c3e50;
+    padding: 8% 13%;
+}
+
+.channel-link{
+	font: 15px bold;
+    text-decoration: none;
+    color: #9acd32;
+    padding-left: 50%;
+}
+
+.channel-link:hover{
+	font-size: 17px;
+	text-decoration: none;
+	color:#D24E58;
+}
+
+.custom-footer{
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 1% 40%;
+    background: #2c3e50;
+ }
+
+ @media (max-width: 767px) and (max-width: 575px){
+ 	 .main-slider .item
+	{
+		height: 280px;
+	}
+
+} 
+
+@media (max-width: 1199px)  and (max-width: 575px){
+.custom-footer{
+		padding: 4% 27%;
+	}
+
+.navbar-inverse .navbar-brand{
+	padding: 0px;
+	margin: 0px;
+}
+}
+
+
+/*inner-pg*/
+/*******************/
+
+.background-img {
+    background: url(../dist/images/4.jpg)no-repeat 0px 0px;
+  }
+
+.navbar-default{
+	border-radius: 0px;
+    border: none;
+    padding: 0px 0;
+    background: none;
+     
+}
+.navbar-default .navbar-logo{
+    color: #1B7B34;
+    font: 38px bolder;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-logo:hover{
+	text-decoration: none;
+	color: #1B7B34;
+}
+
+.navbar-default .navbar-nav li a{
+	color:#5D5354;
+}
+
+.navbar-default .hvr-from-center{
+  font-family: 'Lato', sans-serif;
+  padding: 16px 23px;
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #EAB126;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-from-center:hover:before, .hvr-from-center:focus:before, .hvr-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.prog-slider{
+	margin-bottom: 2%;
+}
+
+.section-title {
+  margin: 2% 0px;
+  padding-bottom: 1%;
+}
+
+.section-title a{
+  font-family: 'Lato', sans-serif;  
+  font: 25px bold;
+  margin: 2% 0px;
+  color: #F24C4E;
+  margin: 2% 0px;
+  border-bottom: 5px solid #1B7B34;
+  padding-bottom: 1%;
+
+}
+
+.section-title a:hover{
+	text-decoration: none;
+}
+
+.glyphicon-triangle-bottom {
+ top: 5px;
+}
+
+.prog-thumbnail{
+	border:inherit;
+    display: block;
+    width: 210px;
+    background: inherit;
+    margin-top: 15px;
+}
+.prog-thumbnail .time li{
+    direction: ltr;
+    display: inline;
+    float: right;
+    margin: 0px -5px
+    text-align: right;
+}
+
+.owl-carousel .owl-item .prog-img{
+   height: 175px !important;
+   padding: 5% 5%;
+   border-right: 2px solid #F24C4E;
+}
+
+.prog-caption{
+	padding:1% 10%;
+}
+
+.prog-caption .prog-title {
+	font-family: 'Lato', sans-serif;
+	font: 19px bold;
+    color: #EAB126;  
+}
+
+.prog-caption .prog-title:hover{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	font: 20px bold;
+} 
+
+.thumbnails-with-custom-content .thumbnail{
+    margin-top: 15px;
+    margin-bottom: 10%;
+   }
+
+.thumbnails-with-custom-content .thumbnail:hover{
+ background: #F5B7B1;
+
+}
+
+.latest-news-container{
+	background: url(../dist/images/41.jpg)no-repeat 0px 60px;
+}
+
+.news-img{
+   width: 500px;
+   height: 175px !important;
+}
+
+.News-details{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+    font: 16px bold;
+    color: #2c3e50;
+}
+
+.News-details:hover{
+	font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font: 17px bold;
+}
+
+@media (min-width: 768px){
+.thumbnails-with-custom-content{
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 4px 4px 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+    padding: 5px 10px;
+    margin: 0 -15px 15px;
+  }
+
+}
+}
